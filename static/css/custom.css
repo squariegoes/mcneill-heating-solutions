@@ -1,0 +1,150 @@
+/* for setting max container width */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+body{
+    background-image: url('/static/images/background/debut_light.png');
+    padding-bottom: 20px;
+}
+
+h1
+{
+    margin-bottom: 20px;
+    color: #404040;
+}
+
+p.text
+{
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+p.lg
+{
+    font-size: 12pt;
+}
+
+
+
+/***********************
+* All pages
+***********************/
+
+div.main-container
+{
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:0px;
+    -webkit-box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.1);
+}
+
+div.standard-content-container
+{
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:20px;
+    background:#FFFFFF;
+}
+
+
+
+/***********************
+* Header
+***********************/
+
+p.header-title-text
+{
+    padding-top: 71px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25pt;
+    color: white;
+}
+
+p.header-details-text
+{
+    font-family: Arial;
+    font-size: 14pt;
+    color: #FCFCFC;
+}
+
+
+
+/***********************
+* Bootstrap overrides
+***********************/
+
+.jumbotron {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: inherit;
+}
+
+
+
+/***********************
+* Home page
+***********************/
+
+p.jumbo-descr{
+	color: #B0B0B0;
+}
+
+
+
+/***********************
+* Testimonials page
+***********************/
+
+.testimonialContainer
+{
+
+}
+
+.testimonialQuote
+{
+    font-family:"GalanoGrotesque-Regular",Helvetica,sans-serif;
+    font-size: 20px;
+    color: #555;
+}
+
+.testimonialPerson
+{
+    margin-right:70px;
+    font-family: "Courier New",monospace;
+    color: #868686;
+    font-size: 18px;
+    text-align:right;
+}
+
+hr.testimonialHr
+{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/***********************
+* Contact page
+***********************/
+
+div.contact-info-item
+{
+    margin-bottom: 9px;
+}
+
+div.contact-info-item span
+{
+    font-family: Helvetica,sans-serif;
+    margin-left: 5px;
+}
+
+

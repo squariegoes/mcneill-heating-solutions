@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+<div class="container standard-content-container">
+
+    {% if mode == 'boiler_fitting' %}
+        <h1>Boiler Fitting</h1>
+    {% endif %}
+
+    {% if mode == 'boiler_servicing' %}
+        <h1>Boiler Servicing</h1>
+    {% endif %}
+
+    {% if mode == 'plumbing' %}
+        <h1>Plumbing</h1>
+    {% endif %}
+
+    {% if mode == 'bathroom_fitting' %}
+        <h1>Bathroom Fitting</h1>
+    {% endif %}
+
+
+    <div class="">
+        <div style="float:left">
+            <img src="/static/images/other/boiler.jpg" alt="Boiler" />
+        </div>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin,
+            purus id sagittis luctus, tellus lorem dapibus tellus, et sollicitudin nibh orci a quam. Maecenas facilisis
+            sit amet est quis pharetra. Aliquam vel quam ipsum. Phasellus at laoreet sem, vel consequat sem. Donec
+            finibus hendrerit turpis blandit tempus.
+        </p>
+    </div>
+
+
+</div>
+
+{% endblock %}
