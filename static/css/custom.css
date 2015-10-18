@@ -52,6 +52,15 @@ div.standard-content-container
     background:#FFFFFF;
 }
 
+div.header-row
+{
+    margin-bottom: 0px;
+    background: #ff2c19;
+    height: 120px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+
 
 
 /***********************
