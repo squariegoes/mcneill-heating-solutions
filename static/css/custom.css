@@ -108,6 +108,20 @@ p.jumbo-descr{
 
 
 /***********************
+* Services page
+***********************/
+
+div.services-img-container
+{
+    float:left;
+    padding-left:10px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+
+
+/***********************
 * Testimonials page
 ***********************/
 
