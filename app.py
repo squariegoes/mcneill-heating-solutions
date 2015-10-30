@@ -11,14 +11,14 @@ def home():
 @app.route('/boiler_servicing')
 @app.route('/plumbing')
 @app.route('/bathroom_installation')
-@app.route('/other_services')
+@app.route('/additional_services')
 def services():
     modes = {
         "/boiler_installation": "boiler_installation",
         "/boiler_servicing": "boiler_servicing",
         "/plumbing": "plumbing",
         "/bathroom_installation": "bathroom_installation",
-        "/other_services": "other_services",
+        "/additional_services": "additional_services",
     }
 
     return render_template('services.html', mode=modes.get(request.url_rule.rule))
