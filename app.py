@@ -7,16 +7,18 @@ app.secret_key = 'my precious'
 def home():
     return render_template('home.html')
 
-@app.route('/boiler_fitting')
+@app.route('/boiler_installation')
 @app.route('/boiler_servicing')
 @app.route('/plumbing')
-@app.route('/bathroom_fitting')
+@app.route('/bathroom_installation')
+@app.route('/other_services')
 def services():
     modes = {
-        "/boiler_fitting": "boiler_fitting",
+        "/boiler_installation": "boiler_installation",
         "/boiler_servicing": "boiler_servicing",
         "/plumbing": "plumbing",
-        "/bathroom_fitting": "bathroom_fitting",
+        "/bathroom_installation": "bathroom_installation",
+        "/other_services": "other_services",
     }
 
     return render_template('services.html', mode=modes.get(request.url_rule.rule))

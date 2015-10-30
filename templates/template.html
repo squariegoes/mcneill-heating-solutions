@@ -82,13 +82,14 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li {% if request.path == '/' %}class="active"{% endif %}><a href="/">Home</a></li>
-                            <li class="dropdown {% if request.path in ['/boiler_fitting', '/boiler_servicing', '/plumbing', '/bathroom_fitting'] %}active"{% endif %}">
+                            <li class="dropdown {% if request.path in ['/boiler_installation', '/boiler_servicing', '/plumbing', '/bathroom_installation', 'other_services'] %}active"{% endif %}">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/boiler_fitting">Boiler fitting</a></li>
+                                    <li><a href="/boiler_installation">Boiler installation</a></li>
                                     <li><a href="/boiler_servicing">Boiler servicing</a></li>
                                     <li><a href="/plumbing">Plumbing</a></li>
-                                    <li><a href="/bathroom_fitting">Bathroom fitting</a></li>
+                                    <li><a href="/bathroom_installation">Bathroom installation</a></li>
+                                    <li><a href="/other_services">Other services</a></li>
                                 </ul>
                             </li>
                             <li {% if request.path == '/testimonials' %}class="active"{% endif %}><a href="/testimonials">Testimonials</a></li>
